@@ -19,5 +19,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build and Test with Maven
-      working-directory: ./Chatapp-V3  # <-- CHANGE THIS to your folder name
       run: mvn -B test
