@@ -1,0 +1,8 @@
+version: 1
+tests:
+  - name: MessageTests
+    class: com.mycompany.chatapp.MessageTest
+  - name: StoredMessagesTests
+    class: com.mycompany.chatapp.StoredMessagesTest
+  - name: RegistrationTests
+    class: com.mycompany.chatapp.RegistrationTest
